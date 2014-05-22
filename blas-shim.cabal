@@ -1,0 +1,16 @@
+name:                blas-shim
+version:             0.1.0.0
+synopsis:            Wrapper generator for the Fortran BLAS interface.
+description:         Wrapper generator for the Fortran BLAS interface.
+license:             MIT
+license-file:        LICENSE
+author:              RF
+maintainer:          rf@rufflewind.com
+category:            Math
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable blas-shim
+  main-is:             Main.hs
+  build-depends:       base     ==4.5.*
+                     , ListLike ==3.1.*

@@ -1,0 +1,8 @@
+a.out
+dist/
+Common.hs
+*.exe
+*.hcr
+*.hi
+*.o
+*.pyc
