@@ -68,7 +68,9 @@ main = do
     hPutStrLn h `mapM_`
       [ "#ifndef " <> guardName
       , "#define " <> guardName
+      , "#ifndef HAVE_COMPLEX_TYPEDEFS"
       , "#include \"complex_typedefs.h\""
+      , "#endif"
       , "#ifdef __cplusplus"
       , "extern \"C\" {"
       , "#endif"
