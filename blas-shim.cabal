@@ -12,5 +12,5 @@ cabal-version:       >=1.8
 
 executable blas-shim
   main-is:             Main.hs
-  build-depends:       base     ==4.5.*
-                     , ListLike ==3.1.*
+  build-depends:       base     >=4.5 && <4.7
+                     , ListLike >=3.1 && <4.1
