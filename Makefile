@@ -24,7 +24,7 @@ VERSION=0.1.0
 all: wrapper lib
 
 clean:
-	rm -fr dist
+	rm -fr dist Common.hs
 
 doc:
 	cabal haddock --executables
@@ -56,7 +56,7 @@ dist/include/complex_typedefs.h: complex_typedefs.h
 
 wrapper: dist/build/$(NAME)/$(NAME)$(EXE)
 
-Common.hs: Common.py
+Common.hs: Common.pre
 	./$<
 
 dist/setup-config: $(NAME).cabal

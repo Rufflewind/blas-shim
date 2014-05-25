@@ -31,8 +31,6 @@ supported (e.g. in C90).
 Dependencies
 ------------
 
-  - [Python][5]
-  - [PyYAML][6]
   - [Haskell][3] environment
   - [ListLike][4]
   - C compiler and associated build tools
@@ -70,5 +68,3 @@ functions are named with a prefix `bls_`.
 [2]: http://netlib.org/blas/blast-forum/cblas.tgz
 [3]: http://haskell.org
 [4]: https://hackage.haskell.org/package/ListLike
-[5]: https://python.org
-[6]: http://pyyaml.org
